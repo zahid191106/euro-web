@@ -133,6 +133,7 @@ export default function App() {
   return (
     <motion.div 
       initial="hidden"
+      id="contact"
       animate="visible"
       variants={pageTransition}
       className="min-h-screen text-slate-800 antialiased font-sans relative overflow-hidden py-12 md:py-20 px-4 sm:px-6 lg:px-8"

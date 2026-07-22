@@ -94,15 +94,15 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#team" className="relative text-lg font-normal text-slate-900 hover:text-(--text-purple) px-0.5 py-3.75 block transition-colors duration-300 group">
-                    Team
+                  <Link href="#tech-stack" className="relative text-lg font-normal text-slate-900 hover:text-(--text-purple) px-0.5 py-3.75 block transition-colors duration-300 group">
+                    Tech Stack
                     <span className="absolute bottom-3 left-0 w-none h-0.5 bg-(--brand-purple) transition-all duration-300 origin-left scale-x-0 group-hover:scale-x-100"></span>
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="#contact" className="relative text-lg font-normal text-slate-900 hover:text-(--text-purple) px-0.5 py-3.75 block transition-colors duration-300 group">
-                    Contact
+                  <Link href="#estimator" className="relative text-lg font-normal text-slate-900 hover:text-(--text-purple) px-0.5 py-3.75 block transition-colors duration-300 group">
+                    Cost Estimate
                     <span className="absolute bottom-3 left-0 w-none h-0.5 bg-(--brand-purple) transition-all duration-300 origin-left scale-x-0 group-hover:scale-x-100"></span>
                   </Link>
                 </li>
@@ -112,7 +112,7 @@ export default function Navbar() {
             {/* Right Action Trigger Buttons */}
             <div className="flex items-center gap-4 max-xl:order-2">
               <Link
-                href="#about"
+                href="#contact"
                 className="bg-(--brand-purple) hover:bg-(--brand-purple-hover) text-white text-lg font-bold py-2 px-5 ml-0 xl:ml-7 rounded-[50px] transition-all duration-300 whitespace-nowrap"
               >
                 Contact

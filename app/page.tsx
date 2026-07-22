@@ -15,7 +15,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div 
-      className="flex flex-col items-center justify-center min-h-screen dark:bg-black overflow-x-hidden"
+      className="flex flex-col items-center justify-center dark:bg-black "
       style={{
         backgroundImage: `
           linear-gradient(45deg, 

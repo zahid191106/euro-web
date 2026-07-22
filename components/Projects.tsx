@@ -157,7 +157,7 @@ export default function App() {
   };
 
   return (
-    <section id="process" className="w-full relative z-10 py-24 px-6 max-w-7xl mx-auto">      
+    <section id="portfolio" className="w-full relative z-10 py-24 px-6 max-w-7xl mx-auto">      
       <div className="relative z-10 text-center max-w-5xl mx-auto mb-10 space-y-4">
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-(--brand-mint)/20 border border-(--brand-mint) backdrop-blur-xs">
           <Sparkles className="w-4 h-4 text-(--text-mint-dark) animate-pulse" />
