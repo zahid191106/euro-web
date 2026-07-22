@@ -222,7 +222,7 @@ export default function AboutUs() {
               whileInView={{ scale: 1, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ type: 'spring', stiffness: 60, damping: 20 }}
-              variants={blobAnimation}
+              // variants={blobAnimation}
               animate="animate"
               className="relative w-[320px] h-[360px] sm:w-[420px] sm:h-[480px] bg-slate-100 overflow-hidden shadow-2xl border border-slate-100/50 cursor-pointer group"
               style={{
